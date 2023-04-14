@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(to bottom, #ecb1ec, #e078be);
+  /* background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%; */
+}
+#title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #430c0f, #4a2a3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: typing 4s steps(12) forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+
+#title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: typing 4s steps(60, end);
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+.container{
+    border-style: ridge;
+    border-radius: 50%  ;
+    border-color: brown;
+}
+#IdFirst{
+    border-top-left-radius: 0%;
+    width: 30%;
+}
+#firstMsg{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+#IdSec{
+    text-align: center;
+    margin-top: 100px;
+    width: 30%;
+    margin-left: 930px;
+    padding: 20px;
+    padding-left: 40px;
+border-top-right-radius: 0%;
+}
+#secondMsg{
+    font-size: 25px;
+}
+
+
+
+#enterMsg{
+    border-style: ridge;
+    border-color: brown;
+    height: 70px;
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width : 95%;
+}
+
+#btn{
+  width: 500px;
+  height: 50px;
+  border: none;
+  background-color: rgb(54, 54, 219);
+  margin: 20px 500px;
+  cursor: pointer;
+}
